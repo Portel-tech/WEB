@@ -43,7 +43,11 @@
  .control-button{
      padding: 10px;
  }
-
+ .rectangle {
+  background-color: #555;
+  width: 149px;
+  height: 103px;
+  border-radius: 7px;
 
 
 }
