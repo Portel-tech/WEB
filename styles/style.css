@@ -8,3 +8,18 @@ html {
 body{
     background-color:red;
 }
+
+.container{
+    display: grid;
+    background-color: blue;
+}
+
+.controls{
+    grid-area: controls;
+    background-color: yellow;
+}
+
+.main_video{
+    grid-area: main_video;
+    background-color: green;
+}
