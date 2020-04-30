@@ -44,6 +44,26 @@
      padding: 10px;
  }
 
+ .chat-enabled{
+    /* Chat Button */
+    position: absolute;
+    width: 54.38px;
+    height: 54.38px;
+    left: 355px;
+    top: 670px;
+
+    opacity: 0.9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .video-enabled{
+    position: absolute;
+    visibility: hidden;
+    width: 54.19px;
+    height: 54.38px;
+    left: 422px;
+    top: 669px;
+ }
 
 
 }
