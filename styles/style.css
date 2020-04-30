@@ -11,51 +11,14 @@
   }
 
   /* Mobile First */
-  .wrapper{
-      display: block;
-  }
-
+  
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 550px){
-    .wrapper {
-        display: grid;
-        grid-template-rows: 530px 50px;
-        grid-gap: 1px;
-        grid-auto-rows: minmax(100px, auto);
-      }
-      .main_video {
-        grid-column: 1;
-        grid-row: 1;
-        background-color: yellow;
-      }
-      .control-row { 
-        grid-column: 1;
-        grid-row: 2;
-        background-color: green;
-      }
       
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px){
-    @media (min-width: 550px){
-        .wrapper {
-            display: grid;
-            grid-template-rows: 530px 50px;
-            grid-gap: 1px;
-            grid-auto-rows: minmax(100px, auto);
-          }
-          .main_video {
-            grid-column: 1;
-            grid-row: 1;
-            background-color: yellow;
-          }
-          .control-row { 
-            grid-column: 1;
-            grid-row: 2;
-            background-color: green;
-          }
-          
-    }
+   
 }
 
