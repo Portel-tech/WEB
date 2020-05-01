@@ -11,45 +11,7 @@
   }
 
   /* Mobile First */
-  .container{
-   display: flex;
-   flex-flow:column-reverse nowrap;
-  }
-
-  /* Settings at the top right*/
-  .settings-top{
-   position: absolute;
-   top: 20px;
-   right:20px;
-}
-
-.settings-add-person{
-   position: absolute;
-   top: 30px;
-   right:100px;
-   height: 20.54px;
-   width: 23px;
-  }
-.settings-speaker-stat{
-   position: absolute;
-   top: 30px;
-   right:65px;
-   height: 20.54px;
-   width: 23px;
-  }
-.settings-settings{
-   position: absolute;
-   top: 30px;
-   right:35px;
-   height: 20.54px;
-   width: 23px;
-  }
-
-  /* grid view btn */
-.grid-view-btn{
-   position: absolute;
-   top:300px;
-}
+  
    /* .chat-btn{
       height: 50%;
       width: 50%;
@@ -72,6 +34,76 @@
       width: 50%;
    } */
    
+
+   
+ 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px){
+      
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px){
+   /* .chat-btn{
+      height: 100%;
+      width: 100%;
+   }
+
+   .video-btn{
+      height: 100%;
+      width: 100%;
+   }
+   .end-call-btn{
+      height: 100%;
+      width: 100%;
+   }
+   .mic-btn{
+      height: 100%;
+      width: 100%;
+   }
+   .screen-share-btn{
+      height: 100%;
+      width: 100%;
+   } */
+   .container{
+      display: flex;
+      flex-flow:column-reverse nowrap;
+     }
+   
+     /* Settings at the top right*/
+     .settings-top{
+      position: absolute;
+      top: 20px;
+      right:20px;
+   }
+   
+   .settings-add-person{
+      position: absolute;
+      top: 30px;
+      right:100px;
+      height: 20.54px;
+      width: 23px;
+     }
+   .settings-speaker-stat{
+      position: absolute;
+      top: 30px;
+      right:65px;
+      height: 20.54px;
+      width: 23px;
+     }
+   .settings-settings{
+      position: absolute;
+      top: 30px;
+      right:35px;
+      height: 20.54px;
+      width: 23px;
+     }
+   
+     /* grid view btn */
+   .grid-view-btn{
+      position: absolute;
+      top:300px;
+   }
 
    /* Current users video feed */
    .my-feed{
@@ -139,33 +171,4 @@
 .control-button{
     padding: 5px;
 }
- 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 550px){
-      
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 850px){
-   /* .chat-btn{
-      height: 100%;
-      width: 100%;
-   }
-
-   .video-btn{
-      height: 100%;
-      width: 100%;
-   }
-   .end-call-btn{
-      height: 100%;
-      width: 100%;
-   }
-   .mic-btn{
-      height: 100%;
-      width: 100%;
-   }
-   .screen-share-btn{
-      height: 100%;
-      width: 100%;
-   } */
 }
