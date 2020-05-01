@@ -65,14 +65,17 @@
       height: 50%;
       width: 50%;
    } */
+   
 
+   /* Current users video feed */
    .my-feed{
       position: absolute;
       bottom: 10px;
       right:15px;
-      background-color: red;
+      background-color: gray;
       width: 149px;
       height: 103px;
+      border-radius: 3%;
    }
 
    
@@ -99,19 +102,21 @@
    }
 
    .user-feed{
-      background-color: red;
+      background-color: gray;
+      border-radius: 3%;
       width: 195px;
       height: 135px;
       margin: 10px;
+      margin-left: 14px;
    }
-
-
-
-.controls{
-   display:flex;
-   flex-flow: row nowrap;
-   align-items: center;
-   justify-content: center;
+   
+   
+   
+   .controls{
+      display:flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
 }  
 
 .control-row{
