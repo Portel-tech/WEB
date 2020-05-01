@@ -43,6 +43,7 @@
  .control-button{
      padding: 10px;
  }
+<<<<<<< HEAD
 
  .chat-enabled{
     /* Chat Button */
@@ -64,6 +65,13 @@
     left: 422px;
     top: 669px;
  }
+=======
+ .rectangle {
+  background-color: #555;
+  width: 149px;
+  height: 103px;
+  border-radius: 7px;
+>>>>>>> 480cfa3b187ac4ba3cacd7299e09ff8c6cc7cd62
 
 
 }
