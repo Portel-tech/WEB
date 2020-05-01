@@ -16,11 +16,33 @@
    flex-flow:column-reverse nowrap;
   }
 
-  /* Settings at the top */
+  /* Settings at the top right*/
   .settings-top{
    position: absolute;
    top: 20px;
    right:20px;
+}
+
+.settings-add-person{
+   position: absolute;
+   top: 30px;
+   right:100px;
+   height: 20.54px;
+   width: 23px;
+  }
+.settings-speaker-stat{
+   position: absolute;
+   top: 30px;
+   right:65px;
+   height: 20.54px;
+   width: 23px;
+  }
+.settings-settings{
+   position: absolute;
+   top: 30px;
+   right:35px;
+   height: 20.54px;
+   width: 23px;
   }
    /* .chat-btn{
       height: 50%;
