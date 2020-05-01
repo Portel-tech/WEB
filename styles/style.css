@@ -46,10 +46,37 @@
       height: 103px;
    }
 
+   
+
    .hand{
+      position: absolute;
+      bottom:100px;
+      right: 145px;
       height: 26.07px;
       width: 27.54px;
    }
+
+   /* video feed of other users */
+   .all-users{
+      position: absolute;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
+      top: 0;
+      width:226px;
+      height: 575px;
+      background-color: yellow;
+   }
+
+   .user-feed{
+      background-color: red;
+      width: 195px;
+      height: 135px;
+      margin: 10px;
+   }
+
+
+
 .controls{
    display:flex;
    flex-flow: row nowrap;
