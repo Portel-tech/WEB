@@ -44,6 +44,12 @@
    height: 20.54px;
    width: 23px;
   }
+
+  /* grid view btn */
+.grid-view-btn{
+   position: absolute;
+   top:300px;
+}
    /* .chat-btn{
       height: 50%;
       width: 50%;
