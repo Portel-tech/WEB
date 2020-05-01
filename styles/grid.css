@@ -1,4 +1,4 @@
- html {
+html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
@@ -12,31 +12,7 @@
 
   /* Mobile First */
   
-   /* .chat-btn{
-      height: 50%;
-      width: 50%;
-   }
-
-   .video-btn{
-      height: 50%;
-      width: 50%;
-   }
-   .end-call-btn{
-      height: 50%;
-      width: 50%;
-   }
-   .mic-btn{
-      height: 50%;
-      width: 50%;
-   }
-   .screen-share-btn{
-      height: 50%;
-      width: 50%;
-   } */
    
-
-   
- 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 550px){
       
@@ -44,27 +20,32 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px){
-   /* .chat-btn{
-      height: 100%;
-      width: 100%;
-   }
+    /* css for grid view */
+    .grid-container{
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .grid{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        height:500px;
+        width: 900px;
+        background-color:none;
+    }
 
-   .video-btn{
-      height: 100%;
-      width: 100%;
-   }
-   .end-call-btn{
-      height: 100%;
-      width: 100%;
-   }
-   .mic-btn{
-      height: 100%;
-      width: 100%;
-   }
-   .screen-share-btn{
-      height: 100%;
-      width: 100%;
-   } */
+    .user-feed{
+        background-color: gray;
+        border-radius: 3%;
+        width: 195px;
+        height: 135px;
+        margin: 10px;
+        margin-left: 14px;
+     }
+     
+   
    .container{
       display: flex;
       flex-flow:column-reverse nowrap;
@@ -105,16 +86,8 @@
       top:300px;
    }
 
-   /* Current users video feed */
-   .my-feed{
-      position: absolute;
-      bottom: 10px;
-      right:15px;
-      background-color: gray;
-      width: 149px;
-      height: 103px;
-      border-radius: 3%;
-   }
+   
+  
 
    
 
@@ -139,15 +112,7 @@
       background-color: white;
    }
 
-   .user-feed{
-      background-color: gray;
-      border-radius: 3%;
-      width: 195px;
-      height: 135px;
-      margin: 10px;
-      margin-left: 14px;
-   }
-   
+  
    
    
    .controls{
