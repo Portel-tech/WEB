@@ -1,4 +1,4 @@
- html {
+html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
@@ -11,137 +11,40 @@
   }
 
   /* Mobile First */
+  
+   /* .chat-btn{
+      height: 50%;
+      width: 50%;
+   }
 
+   .video-btn{
+      height: 50%;
+      width: 50%;
+   }
+   .end-call-btn{
+      height: 50%;
+      width: 50%;
+   }
+   .mic-btn{
+      height: 50%;
+      width: 50%;
+   }
+   .screen-share-btn{
+      height: 50%;
+      width: 50%;
+   } */
+   
 
+   
  
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 660px){
-        
-  .container{
-   display: flex;
-   flex-flow:column nowrap;
-  }
-
-  /* Settings at the top right*/
-  .settings{
-     display: none;
-  }
-  .settings-top{
-   position: absolute;
-   top: 20px;
-   right:20px;
-}
-
-.settings-add-person{
-   position: absolute;
-   top: 30px;
-   right:100px;
-   height: 20.54px;
-   width: 23px;
-  }
-.settings-speaker-stat{
-   position: absolute;
-   top: 30px;
-   right:65px;
-   height: 20.54px;
-   width: 23px;
-  }
-.settings-settings{
-   position: absolute;
-   top: 30px;
-   right:35px;
-   height: 20.54px;
-   width: 23px;
-  }
-
-  /* grid view btn */
-.grid-view-btn{
-   position: absolute;
-   top:300px;
-}
-
-/* Current users video feed */
-.my-feed{
-   position: absolute;
-   top: 10px;
-   right:15px;
-   background-color: gray;
-   width: 133px;
-   height: 92px;
-   border-radius: 3%;
-}
-
-
-
-.hand{
-   position: absolute;
-   top:90px;
-   right: 10px;
-   height: 26.07px;
-   width: 27.54px;
-}
-
-/* video feed of other users */
-.all-users{
-   position: absolute;
-   display: flex;
-   flex-flow: row nowrap;
-   justify-content: center;
-   align-items: center;
-   bottom: 0;
-   width:100%;
-   height: 100px;
-   /* height: 575px; */
-   background-color: white;
-}
-
-.user-feed{
-   background-color: gray;
-   border-radius: 3%;
-   width: 117px;
-   height: 82px;
-   /* margin: 10px; */
-   margin-left: 1px;
-   margin-right: 1px;
-}
-
-
-
-.controls{
-   display:flex;
-   flex-flow: row nowrap;
-   align-items: center;
-   justify-content: center;
-}  
-
-.control-row{
-
-/* margin-top: 470px; */
-display:flex;
-flex-flow: row nowrap;
-align-items: center;
-justify-content: space-between;
-position: absolute;
-bottom: 100px;
-}  
-
-.control-button{
- padding: 4px;
-}
-
-/* control buttons */
-.screen-share-btn{
-   display: none;
-}
-
-.btn{
-   height: 50px;
-   width: 50px;
-}
+@media (min-width: 550px){
+      
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px){
+ 
    .container{
       display: flex;
       flex-flow:column-reverse nowrap;
@@ -248,5 +151,4 @@ bottom: 100px;
 .control-button{
     padding: 5px;
 }
-   
 }
