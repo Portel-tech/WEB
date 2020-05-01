@@ -11,7 +11,67 @@
   }
 
   /* Mobile First */
-  
+  .container{
+   display: flex;
+   flex-flow:column-reverse nowrap;
+  }
+   .chat-btn{
+      height: 50%;
+      width: 50%;
+   }
+
+   .video-btn{
+      height: 50%;
+      width: 50%;
+   }
+   .end-call-btn{
+      height: 50%;
+      width: 50%;
+   }
+   .mic-btn{
+      height: 50%;
+      width: 50%;
+   }
+   .screen-share-btn{
+      height: 50%;
+      width: 50%;
+   }
+
+   .my-feed{
+      position: absolute;
+      bottom: 10px;
+      right:15px;
+      background-color: red;
+      width: 149px;
+      height: 103px;
+   }
+
+   .hand{
+      height: 26.07px;
+      width: 27.54px;
+   }
+.controls{
+   display:flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: center;
+}  
+
+.control-row{
+
+   /* margin-top: 470px; */
+   display:flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+   position: absolute;
+   bottom: 10px;
+}  
+
+.control-button{
+    padding: 5px;
+}
+ 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 550px){
       
@@ -19,60 +79,25 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px){
-.container{
-    display: flex;
-    flex-flow:column-reverse nowrap;
-    /* justify-content:flex-end; */
-    /* align-items: flex-end; */
+   .chat-btn{
+      height: 100%;
+      width: 100%;
+   }
+
+   .video-btn{
+      height: 100%;
+      width: 100%;
+   }
+   .end-call-btn{
+      height: 100%;
+      width: 100%;
+   }
+   .mic-btn{
+      height: 100%;
+      width: 100%;
+   }
+   .screen-share-btn{
+      height: 100%;
+      width: 100%;
+   }
 }
- .controls{
-    display:flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
- }  
-
- .control-row{
-     margin-top: 510px;
-    display:flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
- }  
-
- .control-button{
-     padding: 10px;
- }
-<<<<<<< HEAD
-
- .chat-enabled{
-    /* Chat Button */
-    position: absolute;
-    width: 54.38px;
-    height: 54.38px;
-    left: 355px;
-    top: 670px;
-
-    opacity: 0.9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
- }
-
- .video-enabled{
-    position: absolute;
-    visibility: hidden;
-    width: 54.19px;
-    height: 54.38px;
-    left: 422px;
-    top: 669px;
- }
-=======
- .rectangle {
-  background-color: #555;
-  width: 149px;
-  height: 103px;
-  border-radius: 7px;
->>>>>>> 480cfa3b187ac4ba3cacd7299e09ff8c6cc7cd62
-
-
-}
-
