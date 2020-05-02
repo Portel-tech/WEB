@@ -26,7 +26,9 @@
   border-radius: 25px;
     
 }
-
+.logo{
+  height: 80px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 660px){
