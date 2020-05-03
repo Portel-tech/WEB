@@ -12,23 +12,31 @@
 
   /* Mobile First */
 
-.logo{
-  height: 80px;
+  
+  /* Small devices (tablets, 768px and up) */
+@media (max-width: 660px){
+   
+   .logo{
+      position: absolute;
+      top:10px;
+      left:10px;
+      height: 80px;
+   }
+   
+   .logo2{
+      display: none;
+   }
+   
+  .container{
+     display: flex;
+   flex-flow:column nowrap;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 660px){
-        
-  .container{
-   display: flex;
-   flex-flow:column nowrap;
-  }
-
-  /* Settings at the top right*/
-  .settings{
-     display: none;
-  }
-  .settings-top{
+/* Settings at the top right*/
+.settings{
+   display: none;
+}
+.settings-top{
    position: absolute;
    top: 20px;
    right:20px;
@@ -41,22 +49,22 @@
    height: 20.54px;
    width: 23px;
   }
-.settings-speaker-stat{
+  .settings-speaker-stat{
    position: absolute;
    top: 30px;
    right:65px;
    height: 20.54px;
    width: 23px;
-  }
+}
 .settings-settings{
    position: absolute;
    top: 30px;
    right:35px;
    height: 20.54px;
    width: 23px;
-  }
+}
 
-  /* grid view btn */
+/* grid view btn */
 .grid-view-btn{
    position: absolute;
    top:300px;
@@ -117,14 +125,14 @@
 }  
 
 .control-row{
-
-/* margin-top: 470px; */
-display:flex;
-flex-flow: row nowrap;
-align-items: center;
-justify-content: space-between;
-position: absolute;
-bottom: 100px;
+   
+   /* margin-top: 470px; */
+   display:flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+   position: absolute;
+   bottom: 100px;
 }  
 
 .control-button{
@@ -140,13 +148,13 @@ bottom: 100px;
    height: 50px;
    width: 50px;
    display: block;
-
+   
 }
 
 }
 #settings:hover{
-  -webkit-filter:  grayscale(0%) brightness(51%);
-
+   -webkit-filter:  grayscale(0%) brightness(51%);
+   
 }
 .btn{
    height: 50px;
@@ -159,18 +167,22 @@ bottom: 100px;
 .control-button:hover{
    -webkit-filter:  grayscale(0%) brightness(51%);
   border-radius: 25px;
-
-
+  
+  
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 660px){
+   
+   .logo{
+      display: none;
+   }
    .container{
       display: flex;
       flex-flow:column-reverse nowrap;
-     }
+   }
    
-     /* Settings at the top right*/
-     .settings-top{
+   /* Settings at the top right*/
+   .settings-top{
       position: absolute;
       top: 20px;
       right:20px;
