@@ -31,3 +31,19 @@ function change_screenShareBtn()
     if (elem.value=="dis") elem.data= "assets/buttons/Screenshare-enabled-Button.svg",elem.value="ena";
     else elem.data= "assets/buttons/Screenshare-disabled-Button.svg",elem.value="dis";	
 }
+function hand()
+{
+
+}
+function settings()
+{
+	
+}
+function Speaker_stat()
+{
+	
+}
+function haadd_personnd()
+{
+	
+}

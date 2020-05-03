@@ -224,6 +224,12 @@ bottom: 100px;
       height: 26.07px;
       width: 27.54px;
    }
+   .hand:hover{
+    -webkit-filter:  grayscale(0%) brightness(51%);
+   }
+   .hand:active{
+    -webkit-filter:  grayscale(0%) brightness(41%);
+   }
 
    /* video feed of other users */
    .all-users{

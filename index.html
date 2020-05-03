@@ -11,15 +11,15 @@
     <!-- settings at the top right of the page -->
     <div class="settings">
         <object  type="image/svg+xml" data="assets/buttons/Curve-top.svg" class="settings-top"></object>
-        <object id="settings" type="image/svg+xml" data="assets/buttons/Settings.svg" class="settings-settings"></object>
-        <object id="settings" type="image/svg+xml" data="assets/buttons/Speaker-stat.svg" class="settings-speaker-stat"></object>
-        <object id="settings" type="image/svg+xml" data="assets/buttons/Add-person.svg" class="settings-add-person"></object>
+        <div onclick="settings()"><object id="settings" type="image/svg+xml" data="assets/buttons/Settings.svg" class="settings-settings"></object></div>
+        <div onclick="Speaker_stat()"><object id="settings" type="image/svg+xml" data="assets/buttons/Speaker-stat.svg" class="settings-speaker-stat"></object></div>
+        <div onclick="add_person()"><object id="settings" type="image/svg+xml" data="assets/buttons/Add-person.svg" class="settings-add-person"></object></div>
     </div>
     <!-- button to switch to grid view -->
 
     <!-- User feed in the left panel-->
         <div class="my-feed"> </div>
-        <object type="image/svg+xml" data="assets/buttons/hand-enabled-Button.svg" class="hand"></object>
+        <div onclick="hand()"><object type="image/svg+xml" data="assets/buttons/hand-enabled-Button.svg" class="hand"></object></div>
 
     <div class="all-users">
     	<div class="logo"><h3>portel logo</h3></div>
