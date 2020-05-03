@@ -163,7 +163,7 @@ bottom: 100px;
 
 }
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 850px){
+@media (min-width: 660px){
    .container{
       display: flex;
       flex-flow:column-reverse nowrap;
