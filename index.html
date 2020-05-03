@@ -7,7 +7,6 @@
     <title>Portel</title>
 </head>
 <body>
-    
 <div class="container">
     <!-- settings at the top right of the page -->
     <div class="settings">
@@ -38,35 +37,35 @@
         <div class="control-row">
 
             <!-- Chat button -->
-            <div class="control-button">
-                <object  type="image/svg+xml" data="assets/buttons/Chat-enabled-Button.svg" class="btn"></object>
-
+            <div class="control-button" onclick="change_chatBtn()">
+                <object    type="image/svg+xml" data="assets/buttons/Chat-enabled-Button.svg" class="btn" id="chatBtn">
+                </object>
+               
             </div>
 
             <!-- video button  -->
-            <div class="control-button">
-              <object type="image/svg+xml" data="assets/buttons/Video-enabled-button.svg" class="btn" ></object>
+            <div class="control-button" onclick="change_videoBtn()">
+              <object type="image/svg+xml" data="assets/buttons/Video-enabled-button.svg" class="btn" id="videoBtn"></object>
             </div>
 
             <!-- end call button  -->
-            <div class="control-button ">
-                <object type="image/svg+xml" data="assets/buttons/endcall.svg" class="btn"></object>
+            <div class="control-button "onclick="endCall()">
+              <object type="image/svg+xml" data="assets/buttons/endcall.svg" class="btn"></object>
             </div>
 
             <!-- mic button  -->
-            <div class="control-button ">
-                <object type="image/svg+xml" data="assets/buttons/Mic-enabled-Button.svg" class="btn"></object>                
+            <div class="control-button " onclick="change_micBtn()">
+                <object type="image/svg+xml" data="assets/buttons/Mic-enabled-Button.svg" class="btn" id="micBtn"></object>                
             </div>
 
             <!-- screen share button -->
-            <div class="control-button ">
-                <object type="image/svg+xml" data="assets/buttons/Screenshare-enabled-Button.svg" class="btn"></object>
+            <div class="control-button " onclick="change_screenShareBtn()">
+                <object type="image/svg+xml" data="assets/buttons/Screenshare-enabled-Button.svg" class="btn" id="screenShareBtn"></object>
             </div>
         </div>
     </div>
 
 </div>
-
 <script src="main.js"></script>
 </body>
 </html>

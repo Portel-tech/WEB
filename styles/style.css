@@ -11,21 +11,7 @@
   }
 
   /* Mobile First */
-#settings:hover{
-  -webkit-filter:  grayscale(0%) brightness(51%);
 
-}
-.btn:hover{
-  -webkit-filter:  grayscale(0%) brightness(51%);
-  border-radius: 25px;
- 
-
-}
-.btn:active {
-  -webkit-filter:  grayscale(0%) brightness(31%);
-  border-radius: 25px;
-    
-}
 .logo{
   height: 80px;
 }
@@ -154,10 +140,28 @@ bottom: 100px;
    height: 50px;
    width: 50px;
    display: block;
-}
 
 }
 
+}
+#settings:hover{
+  -webkit-filter:  grayscale(0%) brightness(51%);
+
+}
+.btn{
+   height: 50px;
+   width: 50px;
+   display: block;
+   border-radius: 25px;
+   pointer-events: none;
+}
+
+.control-button:hover{
+   -webkit-filter:  grayscale(0%) brightness(51%);
+  border-radius: 25px;
+
+
+}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px){
    .container{
