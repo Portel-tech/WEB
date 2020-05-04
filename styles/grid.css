@@ -21,10 +21,18 @@ html {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px){
     /* css for grid view */
-    .grid-container{
+    .lift{
+        /* position: absolute; */
+        bottom: 70px;
+        background-color: red;
         margin-top: 35px;
         display: flex;
         justify-content: center;
+    }
+
+    .grid-container{
+       position: absolute;
+       bottom: 70px;
     }
     .grid{
         display: flex;
@@ -116,6 +124,7 @@ html {
    
    
    .controls{
+      margin-top: 30px;
       display:flex;
       flex-flow: row nowrap;
       align-items: center;
@@ -123,7 +132,6 @@ html {
 }  
 
 .control-row{
-
    /* margin-top: 470px; */
    display:flex;
    flex-flow: row nowrap;
