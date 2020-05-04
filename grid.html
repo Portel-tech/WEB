@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Portel</title>
 </head>
 <body>
-
+<div><img class="logo" src="assets/logo/portel.png" height="40px" width="200px" ></div>
 <!-- settings at the top right of the page -->
-<object type="image/svg+xml" data="./assets/buttons/Curve top.svg" class="settings-top"></object>
-<object type="image/svg+xml" data="./assets/buttons/Settings.svg" class="settings-settings"></object>
-<object type="image/svg+xml" data="./assets/buttons/Speaker stat.svg" class="settings-speaker-stat"></object>
-<object type="image/svg+xml" data="./assets/buttons/Add person.svg" class="settings-add-person"></object>
-
+<div class="settings">
+        <object  type="image/svg+xml" data="assets/buttons/Curve-top.svg" class="settings-top"></object>
+        <div onclick="settings()"><object id="settings" type="image/svg+xml" data="assets/buttons/Settings.svg" class="settings-settings"></object></div>
+        <div onclick="Speaker_stat()"><object id="settings" type="image/svg+xml" data="assets/buttons/Speaker-stat.svg" class="settings-speaker-stat"></object></div>
+        <div onclick="add_person()"><object id="settings" type="image/svg+xml" data="assets/buttons/Add-person.svg" class="settings-add-person"></object></div>
+    </div>
 <div class="grid-container">
     <div class="grid">
         <div class="user-feed"> </div>
@@ -34,37 +36,39 @@
 <!-- control buttons situated at the bottom -->
 <!-- <div class="container"> -->
 <div class="controls">
-    <div class="control-row">
+        <div class="control-row">
 
-        <!-- Chat button -->
-        <div class="control-button ">
-            <object type="image/svg+xml" data="./assets/buttons/Chat enabled Button.svg" class="chat-btn"></object>
-        </div>
+            <!-- Chat button -->
+            <div class="control-button" onclick="change_chatBtn()">
+                <object    type="image/svg+xml" data="assets/buttons/Chat-enabled-Button.svg" class="btn" id="chatBtn">
+                </object>
+               
+            </div>
 
-        <!-- video button  -->
-        <div class="control-button video-btn">
-            <object type="image/svg+xml" data="./assets/buttons/Video enabled button.svg"></object>
-        </div>
+            <!-- video button  -->
+            <div class="control-button" onclick="change_videoBtn()">
+              <object type="image/svg+xml" data="assets/buttons/Video-enabled-button.svg" class="btn" id="videoBtn"></object>
+            </div>
 
-        <!-- end call button  -->
-        <div class="control-button end-call-btn">
-            <object type="image/svg+xml" data="./assets/buttons/endcall .svg"></object>
-        </div>
+            <!-- end call button  -->
+            <div class="control-button "onclick="endCall()">
+              <object type="image/svg+xml" data="assets/buttons/endcall.svg" class="btn"></object>
+            </div>
 
-        <!-- mic button  -->
-        <div class="control-button mic-btn">
-            <object type="image/svg+xml" data="./assets/buttons/Mic enabled Button.svg"></object>                
-        </div>
+            <!-- mic button  -->
+            <div class="control-button " onclick="change_micBtn()">
+                <object type="image/svg+xml" data="assets/buttons/Mic-enabled-Button.svg" class="btn" id="micBtn"></object>                
+            </div>
 
-        <!-- screen share button -->
-        <div class="control-button scrren-share-btn">
-            <object type="image/svg+xml" data="./assets/buttons/Screenshare enabled Button.svg"></object>
+            <!-- screen share button -->
+            <div class="control-button " onclick="change_screenShareBtn()">
+                <object type="image/svg+xml" data="assets/buttons/Screenshare-enabled-Button.svg" class="btn" id="screenShareBtn"></object>
+            </div>
         </div>
     </div>
+
 </div>
-<!-- </div> -->
-
-
+<script src="main.js"></script>
 
 
 </body>
