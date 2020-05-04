@@ -14,17 +14,176 @@ html {
   
    
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 550px){
+@media (max-width: 660px){
+.current-user{
+   display: block;
+   position: absolute;
+   right: 30px;
+   top: 10px;
+}
+
+.dsktp{
+   display: none;
+}
       
+
+
+/* .grid-container{
+  position: absolute;
+  bottom: 70px;
+  background-color: blue;
+}
+.grid{
+   background-color: green;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   height:500px;
+   width: 900px;
+   background-color:none;
+} */
+.lift{
+   /* position: absolute; */
+   /* bottom: 70px; */
+   margin-top: 35px;
+   display: flex;
+   justify-content: center;
+}
+
+.grid-container{
+   background-color: green;
+  position: absolute;
+  bottom: 300px;
+
+}
+.grid{
+   background-color: blue;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   height:300px;
+   width: 300px;
+   background-color:none;
+}
+
+
+.user-feed{
+   background-color: gray;
+   border-radius: 3%;
+   width: 195px;
+   height: 135px;
+   margin: 10px;
+   margin-left: 14px;
+}
+
+
+.container{
+ display: flex;
+ flex-flow:column-reverse nowrap;
+}
+
+/* Settings at the top right*/
+.settings-top{
+ position: absolute;
+ top: 20px;
+ right:20px;
+}
+
+.settings-add-person{
+ position: absolute;
+ top: 30px;
+ right:100px;
+ height: 20.54px;
+ width: 23px;
+}
+.settings-speaker-stat{
+ position: absolute;
+ top: 30px;
+ right:65px;
+ height: 20.54px;
+ width: 23px;
+}
+.settings-settings{
+ position: absolute;
+ top: 30px;
+ right:35px;
+ height: 20.54px;
+ width: 23px;
+}
+
+/* grid view btn */
+.grid-view-btn{
+ position: absolute;
+ top:300px;
+}
+
+
+
+
+
+
+.hand{
+ position: absolute;
+ bottom:100px;
+ right: 145px;
+ height: 26.07px;
+ width: 27.54px;
+}
+
+/* video feed of other users */
+.all-users{
+ position: absolute;
+ display: flex;
+ flex-flow: column nowrap;
+ justify-content: flex-start;
+ top: 0;
+ width:226px;
+ height: 100%;
+ /* height: 575px; */
+ background-color: white;
+}
+
+
+
+
+.controls{
+ margin-top: 30px;
+ display:flex;
+ flex-flow: row nowrap;
+ align-items: center;
+ justify-content: center;
+}  
+
+.control-row{
+/* margin-top: 470px; */
+display:flex;
+flex-flow: row nowrap;
+align-items: center;
+justify-content: space-between;
+position: absolute;
+bottom: 10px;
+}  
+
+.control-button{
+padding: 5px;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 850px){
+@media (min-width: 661px){
+   .dsktp{
+      display: block;
+   }
+   
+   .current-user{
+      display: none;
+   }
     /* css for grid view */
     .lift{
         /* position: absolute; */
-        bottom: 70px;
-        background-color: red;
+        /* bottom: 70px; */
         margin-top: 35px;
         display: flex;
         justify-content: center;
